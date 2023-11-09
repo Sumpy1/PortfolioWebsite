@@ -48,15 +48,16 @@ body {
 
 nav {
     position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
+    top: 1;
+    left: 1;
+    z-index: 0.5;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 0.1rem 2.5rem;
+    background-color:antiquewhite;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    opacity: 100%;
     
   }
 
@@ -90,6 +91,7 @@ nav {
     display: none;
   }
   
+
   .hero {
     display: flex;
     align-items: center;
@@ -124,6 +126,7 @@ nav {
 .more-about {
     background-color: var(--bg-color);
     padding: 1rem 6rem;
+    opacity: 100%;
   }
   
   .more-about h2 {
@@ -290,12 +293,10 @@ nav {
   overflow: hidden;
   transform: scale(1.5);
   transition: 1.5s;
-  opacity: 0.7;
+ 
 }
 
-/* Set a specific color for each brand */
 
-/* Facebook */
 .fa-facebook {
   
   color: blue;
@@ -305,7 +306,7 @@ nav {
   
   color: black;
 }
-/* LinkedIn */
+
 .fa-linkiedin {
   background: #55ACEE;
   color: white;
